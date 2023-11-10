@@ -1,0 +1,19 @@
+#showcase-area {
+  min-height: 80vh;
+  background: url("./imgs/pexels-tiger-lily-4481529.jpg") no-repeat center
+    center/cover;
+}
+
+/* .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 80vh;
+}
+
+#why-orange {
+  background: rgb(247, 132, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 132, 49, 1) 0%,
+    rgba(2, 0, 36, 1) 100%
+  );
+} */

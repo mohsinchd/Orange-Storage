@@ -1,0 +1,241 @@
+.btn {
+  border-radius: 200px;
+  background-color: #17fa03;
+  border: none;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #17fa03;
+  opacity: 0.7;
+  color: #333;
+}
+
+.mineTextOrange {
+  color: #8704f5;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 8px 2px rgba(34, 34, 34, 0.74);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(34, 34, 34, 0.74);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(34, 34, 34, 0.74);
+}
+
+/* body */
+body {
+  overflow-x: hidden;
+}
+
+/* purple #8704f5 */
+/* green #17fa03 */
+
+/* Home Card */
+.left-box {
+  border-bottom: 1px solid lightgray;
+}
+.showcase-card {
+  overflow: hidden;
+}
+
+.home-card {
+  height: 410px !important;
+}
+
+.center-box {
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.right-box {
+  border-bottom: 1px solid lightgray;
+}
+
+.card-boxes {
+  background-color: rgb(252, 247, 247);
+}
+
+.selected-box {
+  color: #8704f5;
+  border-top: 5px solid #8704f5;
+}
+
+.card-boxes:hover {
+  color: #8704f5;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .home-card {
+    width: 100% !important;
+  }
+}
+
+.navbar {
+  border-bottom: 3px solid #8704f5;
+}
+
+/* Home hot offers */
+.homeHotOfferList {
+  list-style: none;
+}
+
+/* home top cards */
+
+.orange-color {
+  color: #8704f5;
+}
+
+.bg-orange {
+  background-color: #8704f5;
+}
+
+.bg-outline-orange {
+  border: 2px solid #8704f5 !important;
+  background-color: #fff !important;
+  color: #8704f5 !important;
+}
+.bg-outline-orange:hover {
+  background-color: #8704f5 !important;
+  color: #fff !important;
+}
+
+.bg-green {
+  background-color: #17fa03;
+}
+
+.bg-gradient-1 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffbf96),
+    to(#fe7096)
+  );
+  background: linear-gradient(90deg, #ffbf96, #fe7096);
+}
+
+.bg-gradient-2 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#90caf9),
+    color-stop(99%, #047edf)
+  );
+  background: linear-gradient(90deg, #90caf9, #047edf 99%);
+}
+
+.bg-gradient-3 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#84d9d2),
+    to(#07cdae)
+  );
+  background: linear-gradient(90deg, #84d9d2, #07cdae);
+}
+
+/* Home css */
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 80vh;
+}
+
+#why-orange {
+  background: rgb(135, 4, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 4, 245, 1) 33%,
+    rgba(23, 250, 3, 1) 100%
+  );
+}
+
+#clients img {
+  margin-top: -50px;
+}
+
+#clients .card:hover {
+  background-color: #8704f5;
+  color: #fff;
+}
+
+/* Search Package Details */
+
+.top-image {
+  width: 100%;
+  height: 300px;
+}
+
+/* Navbar */
+.mineTextOrange {
+  color: #8704f5;
+}
+
+/* Listing */
+
+.border-listing-mine {
+  border: 5px solid #8704f5;
+}
+
+.listing-card-badge-background-mine {
+  background-color: #8704f5;
+}
+
+.listingCard {
+  transition: transform 0.4s ease;
+}
+
+.listingCard:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+/* GEO API */
+.geoapify-autocomplete-input {
+  border: none;
+}
+
+/* Multi select */
+.search-wrapper {
+  all: unset;
+}
+
+.multiSelectContainer ul {
+  border: none;
+}
+.optionListContainer {
+  position: static;
+}
+
+/* Dashboard */
+
+.fullHeight {
+  min-height: 100vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.leaflet-container {
+  height: 450px;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .authWidth {
+    width: 100% !important;
+  }
+}
+
+/* .border-bottom {
+  border-bottom: 3px solid #333 !important;
+  width: 30%;
+  border-radius: 5px;
+  margin: auto;
+} */
